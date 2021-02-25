@@ -15,6 +15,7 @@ let sam: Student = (name: "Sam", grade: 99, pet: nil)
 //}
 // ---------------------------------------------------
 
+
 func getPassStatus(for grade: Int, lowestPass: Int = passingGrade) -> Bool {
   grade >= lowestPass
 }
